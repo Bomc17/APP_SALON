@@ -1,0 +1,24 @@
+{
+    "name": "brayan/appsalon",
+    "description": "Proyecto PHP MVC SASS GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "brayan",
+            "email": "brayanmonsalvec17@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
